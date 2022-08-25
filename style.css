@@ -42,6 +42,7 @@ body {
 
 main {
     background-color: white;
+    background-attachment: fixed;
     font-family: Roboto Condensed;
     text-align: justify;
     text-indent: 20px;
@@ -49,11 +50,10 @@ main {
     max-width: 800px;
     padding: 16px;
     margin: auto;
-    background-attachment: scroll;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
-    display: block;
 }
+
 main > h1, h2{
     font-family:idroid;
     color: #164d2f;
